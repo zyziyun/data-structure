@@ -1,7 +1,6 @@
 function Queue () {
     this.dataStore = [];
 }
-
 Queue.prototype = {
     constructor: Queue,
     // 队列尾部添加一个元素
@@ -26,17 +25,6 @@ Queue.prototype = {
     },
     // 判断是否为空
     empty: function () {
-        return !this.dataStore.length;
+        return this.dataStore.length === 0;
     }
 }
-
-// test
-// var q = new Queue();
-// q.enqueue('Meredith');
-// q.enqueue('Cynthia');
-// q.enqueue('Jennifer');
-// q.toString();
-// q.dequeue();
-// q.front();
-// q.back();
-
