@@ -58,7 +58,7 @@ HashTable.prototype = {
             for (var j = 1; j <= 9;j++) {
                 num += Math.floor(Math.random() * 10);
             }
-            num +=
+            // num +=
         }
     }
 }
